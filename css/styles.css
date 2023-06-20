@@ -675,12 +675,10 @@ img {
   text-align: center;
   color: var(--dark);
   margin-bottom: 16px;
-  margin-top: 72px;
 }
-/* .modal-field {
-  padding: 0px 24px;
+.modal-field {
   margin-bottom: 8px;
-} */
+}
 .input-wrap {
   position: relative;
 }
@@ -723,7 +721,6 @@ img {
 }
 
 .modal-field-textarea {
-  padding: 0 24px;
   margin-bottom: 16px;
 }
 .modal-textarea {
@@ -754,7 +751,6 @@ img {
 }
 
 .modal-field-check {
-  padding: 0 24px;
   margin-bottom: 24px;
 }
 .check-span {
@@ -775,10 +771,6 @@ img {
   background-color: var(--ocean);
   border: none;
   fill: var(--light);
-}
-
-.input-check:focus + .check-text span {
-  border: 1px solid var(--ocean);
 }
 
 .check-text {
